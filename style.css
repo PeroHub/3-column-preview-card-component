@@ -19,7 +19,7 @@ section {
     position: relative;
     top: 110px;
     /* border: 1px solid red; */
-    width: 60%;
+    width: 60vw;
     height: 80vh;
     background-color: hsl(0, 0%, 95%);
     box-shadow:
@@ -178,17 +178,23 @@ section
         min-height: 300px;
         overflow: visible;
         height: 240vh;
+        width: 60vw;
     }
 }
 
-@media only screen and (max-width: 600px ) {
+@media only screen and (max-width: 768px ) {
     section {
         flex-direction: column;
         min-height: 300px;
         height: 240vh;
+        width: 100vw;
     }
 
     
 }
+
+
+
+
 
 
